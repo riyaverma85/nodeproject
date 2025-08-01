@@ -3,7 +3,7 @@
 const Update=()=>{
     return(
         <>
-         <h3>Data Update page!!!</h3>
+         <h3 className="h33">Data Update page!!!</h3>
         </>
     )
 }

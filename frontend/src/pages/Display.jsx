@@ -3,7 +3,7 @@
 const Display=()=>{
     return(
         <>
-         <h3>Student Data display page!!!</h3>
+         <h3 className="h33">Student Data display page!!!</h3>
         </>
     )
 }

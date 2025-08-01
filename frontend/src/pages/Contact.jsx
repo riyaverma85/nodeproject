@@ -3,7 +3,7 @@
 const Contact=()=>{
     return(
         <>
-         <h3>  Contact page!!!</h3>
+         <h3 className="h33">  Contact page!!!</h3>
         </>
     )
 }

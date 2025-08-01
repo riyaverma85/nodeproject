@@ -3,7 +3,7 @@
 const Insert=()=>{
     return(
         <>
-         <h3> Insert Student Record page!!!</h3>
+         <h3 className="h33"> Insert Student Record page!!!</h3>
         </>
     )
 }

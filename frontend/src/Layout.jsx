@@ -7,7 +7,10 @@ const Layout=()=>{
         <>
         <Header/>
         <Topnav/>
-         <Outlet/>
+        <div id="outlet">
+            <Outlet/>
+        </div>
+         
         <Footer/>
         </>
     )

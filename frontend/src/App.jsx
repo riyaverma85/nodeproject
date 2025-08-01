@@ -4,7 +4,7 @@ import Layout from "./Layout";
 import Home from "./pages/Home";
 import Insert from "./pages/insert";
 import Display from "./pages/Display";
-import Update from "./pages/Upadte";
+import Update from "./pages/Update";
 import Search from "./pages/Search";
 import Contact from "./pages/Contact";
 const App=()=>{

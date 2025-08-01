@@ -3,7 +3,7 @@
 const Search=()=>{
     return(
         <>
-         <h3>Search Data page!!!</h3>
+         <h3 className="h33">Search Data page!!!</h3>
         </>
     )
 }
