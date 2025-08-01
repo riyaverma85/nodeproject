@@ -7,9 +7,19 @@
 #top{
     height: 60px;
     background-color: rgb(96, 157, 157);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+#title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.me-auto{
+    margin-left: 20%;
+   
+}
+.head{
+    color: white;
+    font-weight: bold;
 }
 /*======================================================FOOTER PAGE==============================================================================*/
 #Footer{
