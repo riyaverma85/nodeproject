@@ -1,9 +1,22 @@
 
+.header{
+    height: 50px;
+    background-color: silver;
+}
+/*======================================================TOPNAV PAGE==============================================================================*/
+#top{
+    height: 60px;
+    background-color: rgb(96, 157, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*======================================================FOOTER PAGE==============================================================================*/
 #Footer{
     height: 100px;
     background-color: rgb(96, 157, 157);
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     text-align: center;
 }
