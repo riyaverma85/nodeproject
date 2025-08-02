@@ -12,7 +12,8 @@ const Insert=()=>{
         setInput(Values=>({...Values,[name]:value}));
         console.log(input)
     }
-    const handleSubmit=async()=>{
+    const handleSubmit=async(e)=>{
+        e.preventDefault();
         let api=`${BackendURl}students/save`;
         const response=await axios.post(api,input);
         console.log(response.data);
@@ -48,7 +49,7 @@ const Insert=()=>{
         <Form.Control type="text" placeholder="Password" name="fees" onChange={handleInput}/>
       </Form.Group>
       
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" onClick={handleSubmit}>
         Submit
       </Button>
     </Form>
