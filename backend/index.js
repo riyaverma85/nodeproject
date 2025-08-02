@@ -4,7 +4,8 @@ const app=express();
 const stuRoute=require("./routes/stuRoutes");
 const mongoose=require("mongoose");
 const bodyparser=require("body-parser");
-mongoose.connect("mongodb://127.0.0.1:27017/predb").then(()=>{
+const cors=require("cors");
+mongoose.connect("mongodb://localhost:27017/predb").then(()=>{
     console.log("Database connected successfully");
 })
     
