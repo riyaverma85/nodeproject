@@ -33,20 +33,20 @@ const Insert=()=>{
     <Form id="form">
       <Form.Group className="mb-3" >
         <Form.Label>Enter Name</Form.Label>
-        <Form.Control type="text" placeholder="Enter email" name="name" onChange={handleInput}/>
+        <Form.Control type="text" name="name" onChange={handleInput}/>
      </Form.Group>
 
       <Form.Group className="mb-3" >
         <Form.Label>Enter Rollno</Form.Label>
-        <Form.Control type="text" placeholder="Password" name="rollno" onChange={handleInput}/>
+        <Form.Control type="text" name="rollno" onChange={handleInput}/>
       </Form.Group>
       <Form.Group className="mb-3">
         <Form.Label>Enter City</Form.Label>
-        <Form.Control type="text" placeholder="Password" name="city" onChange={handleInput}/>
+        <Form.Control type="text" name="city" onChange={handleInput}/>
       </Form.Group>
       <Form.Group className="mb-3" >
         <Form.Label>Enter Fees</Form.Label>
-        <Form.Control type="text" placeholder="Password" name="fees" onChange={handleInput}/>
+        <Form.Control type="text"  name="fees" onChange={handleInput}/>
       </Form.Group>
       
       <Button variant="primary" type="submit" onClick={handleSubmit}>
