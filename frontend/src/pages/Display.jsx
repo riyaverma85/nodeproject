@@ -35,7 +35,7 @@ const Display=()=>{
     return(
         <>
          <h3 className="h33">Student Data display page!!!</h3>
-         <Table striped bordered hover>
+         <Table striped bordered hover variant="dark">
       <thead>
         <tr>
           <th>Sno</th>
