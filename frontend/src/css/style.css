@@ -18,6 +18,7 @@
 #top{
     height: 60px;
     background-color: #113F67;
+    font-style: italic;
 }
 #title{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -37,7 +38,8 @@
 .h33{
     text-align: center;
     margin-top: 10px;
-    
+    font-weight: bold;
+    font-family: fantasy;
 }
 .home{
     height: 400px;
@@ -55,6 +57,7 @@
     border-radius: 5px;
     background-color: #113F67;
     color: #FDF5AA;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 /*======================================================OUTLET PAGE===========================================================================================*/
