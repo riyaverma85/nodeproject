@@ -29,11 +29,11 @@ const Update=()=>{
     loadData();
   }
 
-  const editdata=(id)=>{
+  const myEdit=(id)=>{
     console.log(id);
     navigate(`/edit/${id}`);
   }
-  
+
   let sno=0;
   const ans=mydata.map((key)=>{
     sno++;
@@ -46,7 +46,7 @@ const Update=()=>{
         <td>{key.city}</td>
         <td>{key.fees}</td>
         <td>  
-           <span onClick={()=>{editdata(key._id)}}>edit</span>
+           <span onClick={()=>{myEdit(key._id)}}>edit</span>
         </td>
         <td>
           <span onClick={()=>{mydel(key._id)}}>delete</span>
