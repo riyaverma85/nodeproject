@@ -5,7 +5,7 @@ import Topnav from "./components/Topnav";
 const Layout=()=>{
     return(
         <>
-        <Header/>
+        {/* <Header/> */}
         <Topnav/>
         <div id="outlet">
             <Outlet/>
