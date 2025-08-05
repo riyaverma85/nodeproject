@@ -4,10 +4,12 @@ import { useState,useEffect } from 'react';
 import BackendURl from '../utils/BackendURL';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify'; 
- 
+import { useNavigate } from 'react-router-dom';
 
 const Update=()=>{
   const [mydata,setMydata]=useState([]);
+  const navigate=useNavigate();
+
   const loadData=async()=>{
     let api=`${BackendURl}students/update`;
     const response=await axios.get(api);
@@ -26,6 +28,12 @@ const Update=()=>{
     toast.error("data successfully deleted");
     loadData();
   }
+
+  const editdata=(id)=>{
+    console.log(id);
+    navigate(`/edit/${id}`);
+  }
+  
   let sno=0;
   const ans=mydata.map((key)=>{
     sno++;
@@ -38,7 +46,7 @@ const Update=()=>{
         <td>{key.city}</td>
         <td>{key.fees}</td>
         <td>  
-           <span>edit</span>
+           <span onClick={()=>{editdata(key._id)}}>edit</span>
         </td>
         <td>
           <span onClick={()=>{mydel(key._id)}}>delete</span>
