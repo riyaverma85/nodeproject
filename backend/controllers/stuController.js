@@ -11,7 +11,24 @@ const stuSave=async(req,res)=>{
      console.log(req.body)
      res.send("Data saved successfully");
 }
+const stuDisplay=async(req,res)=>{
+    const student=await stuModel.find();
+    res.send(student)
+}
+const stuUpdate=async(req,res)=>{
+    const student=await stuModel.find();
+    res.send(student)
+}
+const dataDelete=async(req,res)=>{
+    //console.log(req.params);
+    const {id}=req.params;
+    await stuModel.findByIdAndDelete(id);
+     res.send("Data deleted successfully");
+}
 
 module.exports={
-    stuSave
+    stuSave,
+    stuDisplay,
+    stuUpdate,
+    dataDelete
 }
