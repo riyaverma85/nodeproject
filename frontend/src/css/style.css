@@ -2,30 +2,30 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: fantasy;
+    font-family: Arial, sans-serif;
 }
 /*======================================================HEADER PAGE===================================================================================*/
 .header{
     height: 50px;
-    background-color: silver;
+    background-color: #007BFF;
 }
 /*======================================================TOPNAV PAGE==============================================================================*/
 #top{
     height: 60px;
-    background-color: rgb(96, 157, 157);
+    background-color: #007BFF;
 }
 #title{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
     font-size: 30px;
+    
 }
 .me-auto{
-    
     margin-left: 20%;
     font-size: 18px;
 }
 .head{
-    color: white;
+    color: #333333;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -34,6 +34,23 @@
     text-align: center;
     margin-top: 10px;
 }
+.home{
+    height: 400px;
+    background-color: #007BFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #333333;
+}
+.home div{
+    width: 500px;
+    height: 250px;
+    padding: 2rem;
+    background-color: white;
+    color: #333333;
+}
+
 /*======================================================OUTLET PAGE===========================================================================================*/
 #outlet{
     height: auto;
