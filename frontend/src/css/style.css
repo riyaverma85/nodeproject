@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+#navbar{
+    top: 0;
+    position: sticky;
+    z-index: 3;
+}
 /*======================================================HEADER PAGE===================================================================================*/
 .header{
     height: 50px;
@@ -65,7 +70,7 @@
     border-radius: 10px;
     margin-left: 32%;
     padding: 2rem;
-    background-color: rgb(251, 251, 251);
+    background-color: aliceblue;
 }
 
 #form input{
@@ -80,7 +85,7 @@
     padding: 0.4rem;
     font-size: 15px;
     font-weight: bold;
-    background-color: #58A0C8;
+    background-color: #34699A;
     border: none;
     border-radius: 5px;
     color: aliceblue;
