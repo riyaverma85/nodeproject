@@ -12,8 +12,7 @@
 /*======================================================TOPNAV PAGE==============================================================================*/
 #top{
     height: 60px;
-    background-color: #F0E4D3;
-    
+    background-color: #113F67;
 }
 #title{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -33,10 +32,11 @@
 .h33{
     text-align: center;
     margin-top: 10px;
+    color: #FDF5AA;
 }
 .home{
     height: 400px;
-    background-color: #FAF7F3;
+    /* background-color: #34699A; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -47,8 +47,8 @@
     width: 500px;
     height: 250px;
     padding: 2rem;
-    background-color: #F0E4D3;
-    
+    background-color: #113F67;
+    color: aliceblue;
 }
 
 /*======================================================OUTLET PAGE===========================================================================================*/
@@ -79,7 +79,7 @@
     padding: 0.4rem;
     font-size: 15px;
     font-weight: bold;
-    background-color: rgb(12, 12, 12);
+    background-color: #58A0C8;
     border: none;
     border-radius: 5px;
     color: aliceblue;
@@ -90,7 +90,7 @@
 /*======================================================FOOTER PAGE==============================================================================*/
 #Footer{
     height: 100px;
-    background-color: rgb(96, 157, 157);
+    background-color: #34699A;
     display: flex;
     justify-content:center;
     align-items: center;
