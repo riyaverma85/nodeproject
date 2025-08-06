@@ -56,7 +56,7 @@ const Editdata=()=>{
                </Form.Group>
                
                <Button variant="primary" type="submit" onClick={handleSubmit}>
-                 Submit
+                 Edit save
                </Button>
              </Form>
              <ToastContainer/>

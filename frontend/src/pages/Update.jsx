@@ -63,8 +63,8 @@ const Update=()=>{
         <tr>
           <th>Sno</th>
           <th>Name</th>
+          <th>Rollno</th>
           <th>City</th>
-          <th>Subject</th>
           <th>Fees</th>
           <th>Update</th>
           <th>Delete</th>

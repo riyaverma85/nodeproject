@@ -40,8 +40,8 @@ const Display=()=>{
         <tr>
           <th>Sno</th>
           <th>Name</th>
-          <th>City</th>
-          <th>Subject</th>
+          <th>Rollno</th>
+          <th>Ciyt</th>
           <th>Fees</th>
         </tr>
       </thead>

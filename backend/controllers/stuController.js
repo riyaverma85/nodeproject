@@ -35,7 +35,7 @@ const editSave=async(req,res)=>{
      const student=await stuModel.findByIdAndUpdate(_id,{
         name:name,
         rollno:rollno,
-        ciyt:city,
+        city:city,
         fees:fees
      })
      res.send("Data updated successfuly");
