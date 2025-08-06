@@ -25,10 +25,27 @@ const dataDelete=async(req,res)=>{
     await stuModel.findByIdAndDelete(id);
      res.send("Data deleted successfully");
 }
+const dataShow=async(req,res)=>{
+    const {id}=req.query;
+    const student=await stuModel.findById(id);
+    res.send(student);
+}
+const editSave=async(req,res)=>{
+     const {_id,name,rollno,city,fees}=req.body;
+     const student=await stuModel.findByIdAndUpdate(_id,{
+        name:name,
+        rollno:rollno,
+        ciyt:city,
+        fees:fees
+     })
+     res.send("Data updated successfuly");
+}
 
 module.exports={
     stuSave,
     stuDisplay,
     stuUpdate,
-    dataDelete
+    dataDelete,
+    dataShow,
+    editSave
 }
