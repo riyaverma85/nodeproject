@@ -8,11 +8,11 @@ import { FaBars } from "react-icons/fa";
 const Topnav=()=>{
     return(
         <>
-        <Navbar id="top" bg="dark" variant="dark" expand={false} collapseOnSelect>
+        <Navbar id="top" eexpand="md" className="shadow-sm custom-navbar">
         <Container>
           <Navbar.Brand href="#home" id="title">CRUD OPRATION</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="home" className='head'>Home</Nav.Link>
             <Nav.Link as={Link} to="insert" className='head'>Insert</Nav.Link>

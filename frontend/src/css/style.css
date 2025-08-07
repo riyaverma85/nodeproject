@@ -22,6 +22,7 @@
     
 }
 #title{
+   
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
     font-size: 30px;
@@ -37,18 +38,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-.navbar-collapse {
-    display: flex;
-  }
-  /* @media (min-width: 451px) {
-  .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-  }
-  .navbar-toggler {
-    display: none;
-  }
-} */
+
+ 
 
 /*======================================================HOME PAGE==========================================================================================*/
 .h33{
@@ -177,20 +168,6 @@
 /*=======================================================MEDIA =====================================================================*/
 /*=====================================navbar=============================================================================*/
 @media (max-width: 450px) {
-  .navbar-collapse {
-    display: none;
-    
-  }
-  
-  .navbar-collapse.show {
-    display: block;
-   
-  }
-  .navbar-toggler {
-    display: block;
-    border: none;
-     
-  }
   
 
   /*=======================================================HOME PAGE========================================================================*/
