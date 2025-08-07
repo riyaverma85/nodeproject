@@ -25,9 +25,7 @@ const Topnav=()=>{
         </Container>
       </Navbar>
 
-      <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-        <FaBars size={22} color="white" />
-      </div>
+     
         </>
     )
 }

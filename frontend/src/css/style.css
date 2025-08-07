@@ -179,32 +179,44 @@
 @media (max-width: 450px) {
   .navbar-collapse {
     display: none;
+    
   }
+  
   .navbar-collapse.show {
     display: block;
+   
   }
   .navbar-toggler {
     display: block;
     border: none;
+     
   }
+  
 
   /*=======================================================HOME PAGE========================================================================*/
-  .home{
-    height: 400px;
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    color: #333333;
+.home{
+    display: none;
 }
 .home div{
-    width: 100%;
+    width: 80%;
     height: 250px;
     padding: 2rem;
     border-radius: 5px;
     background-color: #113F67;
     color: #FDF5AA;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+/*=======================================================INSERT PAGE================================================================================*/
+#form {
+    margin-top: 20px;
+    width: 100%; /* Responsive ke liye */
+    max-width: 450px; /* Maximum width 450px set */
+    height: 400px;
+    border-radius: 10px;
+    margin-left: auto; /* Center align */
+    margin-right: auto;
+    padding: 2rem;
+    background-color: #F8F9FA;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
