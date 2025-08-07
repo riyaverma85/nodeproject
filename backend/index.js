@@ -5,7 +5,7 @@ const stuRoute=require("./routes/stuRoutes");
 const mongoose=require("mongoose");
 const bodyparser=require("body-parser");
 const cors=require("cors");
-mongoose.connect("mongodb://localhost:27017/predb").then(()=>{
+mongoose.connect("mongodb+srv://riyav2171:CJbpH7vsPPkUNDSM@cluster0.zaz4uso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
     console.log("Database connected successfully");
 })
     

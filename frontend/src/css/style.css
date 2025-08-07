@@ -37,6 +37,19 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
+.navbar-collapse {
+    display: flex;
+  }
+  /* @media (min-width: 451px) {
+  .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+} */
+
 /*======================================================HOME PAGE==========================================================================================*/
 .h33{
     text-align: center;
@@ -161,3 +174,38 @@
       font-size: 14px;
       color: #777;
     }
+/*=======================================================MEDIA =====================================================================*/
+/*=====================================navbar=============================================================================*/
+@media (max-width: 450px) {
+  .navbar-collapse {
+    display: none;
+  }
+  .navbar-collapse.show {
+    display: block;
+  }
+  .navbar-toggler {
+    display: block;
+    border: none;
+  }
+
+  /*=======================================================HOME PAGE========================================================================*/
+  .home{
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #333333;
+}
+.home div{
+    width: 100%;
+    height: 250px;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #113F67;
+    color: #FDF5AA;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+}
