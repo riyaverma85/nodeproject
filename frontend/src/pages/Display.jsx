@@ -41,7 +41,7 @@ const Display=()=>{
           <th>Sno</th>
           <th>Name</th>
           <th>Rollno</th>
-          <th>Ciyt</th>
+          <th>City</th>
           <th>Fees</th>
         </tr>
       </thead>
