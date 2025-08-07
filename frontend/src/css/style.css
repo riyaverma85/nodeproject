@@ -100,6 +100,22 @@
 #form  button:hover{
     background-color: rgb(28, 120, 212);
 }
+.tbl{
+    margin-top: 30px;
+}
+
+
+/*=======================================================Search PAGE================================================================================*/
+#form2{
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 32%;
+    padding: 2rem;
+    background-color: #F8F9FA;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 /*======================================================FOOTER PAGE==============================================================================*/
 
 .footer {
