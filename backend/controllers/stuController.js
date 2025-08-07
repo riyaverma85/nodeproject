@@ -40,6 +40,12 @@ const editSave=async(req,res)=>{
      })
      res.send("Data updated successfuly");
 }
+const searchData=async(req,res)=>{
+    const {rollno}=req.body;
+    const student=await stuModel.find({rollno:rollno});
+    console.log(student)
+    res.send(student);
+}
 
 module.exports={
     stuSave,
@@ -47,5 +53,7 @@ module.exports={
     stuUpdate,
     dataDelete,
     dataShow,
-    editSave
+    editSave,
+    searchData
+
 }

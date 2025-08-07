@@ -9,5 +9,5 @@ route.get("/update",stuControll.stuUpdate);
 route.delete("/delete/:id",stuControll.dataDelete);
 route.get("/edit",stuControll.dataShow);
 route.post("/editsave",stuControll.editSave);
-
+route.post("/search",stuControll.searchData);
 module.exports=route;
