@@ -6,6 +6,9 @@
 // const bodyparser=require("body-parser");
 // require("dotenv").config();
 // const cors=require("cors");
+// mongoose.connect("mongodb+srv://riyav2171:CJbpH7vsPPkUNDSM@cluster0.zaz4uso.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
+//     console.log("Database connected successfully");
+// })
 // mongoose.connect(process.env.DBCON).then(()=>{
 //     console.log("Database connected successfully");
 // })
