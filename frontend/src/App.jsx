@@ -22,8 +22,7 @@ const App=()=>{
           <Route path="search" element={<Search/>}/>
           <Route path="contact" element={<Contact/>}/>
            <Route path="/edit/:id" element={<Editdata/>}/>
-          
-          </Route>
+        </Route>
         </Routes>
      </BrowserRouter>
     </>
