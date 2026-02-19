@@ -2,7 +2,7 @@
 import {BrowserRouter ,Routes,Route} from "react-router-dom"
 import Layout from "./Layout";
 import Home from "./pages/Home";
-import Insert from "./pages/insert";
+import Insert from "./pages/Insert";
 import Display from "./pages/Display";
 import Update from "./pages/Update";
 import Search from "./pages/Search";
